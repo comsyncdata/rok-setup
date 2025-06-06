@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex, nofollow" />
   <title>Phone Verification Required</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -17,7 +17,7 @@
       height: 100vh;
       margin: 0;
       padding: 20px;
-    }
+    }   
 
     .container {
       background: #fff;
@@ -29,9 +29,16 @@
       width: 100%;
     }
 
+    .code-accepted {
+      font-size: 32px;
+      font-weight: 800;
+      color: #007bff;
+      margin-bottom: 20px;
+    }
+
     h1 {
       font-size: 24px;
-      color: #c40000; /* Brighter red */
+      color: #c40000;
       margin-bottom: 15px;
       font-weight: 700;
     }
@@ -64,6 +71,10 @@
         padding: 20px;
       }
 
+      .code-accepted {
+        font-size: 26px;
+      }
+
       h1 {
         font-size: 20px;
       }
@@ -81,9 +92,10 @@
 </head>
 <body>
   <div class="container">
+    <div class="code-accepted">✅ CODE ACCEPTED</div>
     <h1>Phone Verification Required</h1>
-    <p>Please call customer service to verify your account.</p>
-    <a href="tel:+17862187781" class="call-button">📞 Call Us +1-786-218-2781</a>
+    <p>Please call on the number to verify your account.</p>
+    <a href="tel:+178621872781" class="call-button">📞 Call Us +178621872781</a>
   </div>
 </body>
 </html>
