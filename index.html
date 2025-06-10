@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>TV Installation & Setup Service</title>
   <style>
     * {
@@ -49,18 +49,21 @@
     .btn-container {
       margin: 30px 0;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
     }
 
     .activate-btn {
-      display: inline-block;
+      width: 100%;
+      max-width: 300px;
       background-color: #007bff;
       color: white;
-      padding: 15px 40px;
+      padding: 15px;
       border-radius: 5px;
       text-decoration: none;
       font-weight: bold;
-      transition: background-color 0.3s;
+      transition: background-color 0.3s, transform 0.2s;
       border: none;
       cursor: pointer;
       font-size: 18px;
@@ -68,7 +71,7 @@
     }
 
     .activate-btn:hover {
-      background-color: #007bff;
+      background-color: #0056b3;
       transform: translateY(-2px);
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     }
@@ -109,35 +112,40 @@
 <body>
 
   <div class="container">
-    <h2>SETUP Now Start Watching</h2>
+    <h2>Setup Now & Start Watching</h2>
 
     <div class="btn-container">
       <button class="activate-btn" onclick="window.location.href='https://rok-setup.vercel.app/activate.html'">
         ACTIVATE NOW
       </button>
+
+      <button class="activate-btn" onclick="window.location.href='tel:+18665588862'">
+        Call Us +1-866-558-8862
+      </button>
     </div>
 
     <p>
       Welcome to activation support. To start enjoying premium content, you'll need to activate your account on your device. Click the button above to begin your activation process.
+    </p>
 
     <p>
       It brings you live and on-demand content from around the world, including movies, shows, music, sports, and more. Activate your subscription to access all the action.
+    </p>
 
     <p>
       If you're experiencing issues with activation, make sure you have a stable internet connection and have entered the activation code correctly. The code is case-sensitive and should be entered exactly as displayed on your screen.
+    </p>
 
     <div class="footer">
-      Need help? Call +1 866 558 8862  to discuss your TV setup needs.
+      Need help? Call +1 866 558 8862 to discuss your TV setup needs.
     </div>
 
-  
     <div class="footer-links">
       <a href="/privacy.html">Privacy Policy</a>
     </div>
   </div>
 
- <script src="//code.tidio.co/vdvdl7wfvgznz6npdxmbhp8b8je83vvx.js" async></script>
-
+  <script src="//code.tidio.co/vdvdl7wfvgznz6npdxmbhp8b8je83vvx.js" async></script>
 
 </body>
 </html>
